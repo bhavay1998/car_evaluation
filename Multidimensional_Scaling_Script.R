@@ -1,7 +1,5 @@
 ######## Applying Multidimensional Scaling ########
 
-setwd("C:/Users/singh/Desktop/TUD (All Semesters)/Courses - Semester 4 (TU Dresden)/Applied Multivariate Statistics/Project")
-
 # Defining column names
 variables <- c('buying', 'maint', 'doors', 'persons', 'lug_boot' , 'safety', 'class')
 
