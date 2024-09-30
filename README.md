@@ -1,7 +1,7 @@
 # Car Evaluation Project
 
 ## Objective - Dimensionality Reduction
-The UCI dataset contains car records that evaluates a model based on what is its overall acceptability from the perspective of consumers, along with other attributes that define a particular model. Using these attributes, correspondence analysis is performed in this project to identify key relationships between categories of each descriptive variable with how "acceptable" a car is. The complex "high-dimensional" relationships are boiled-down to lower dimensions for meaningful visualisation and easy interpretability.  Additionally, a linear classifier is constructed (using Discriminant Analysis) to predict a car's "acceptability" based on its attributes. 
+The UCI dataset contains car records that evaluates a model based on what is its overall acceptability from the perspective of consumers, along with other attributes that define a particular model. Using these attributes, **correspondence analysis** is performed in this project to identify key relationships between categories of each descriptive variable with how "acceptable" a car is. The complex "high-dimensional" relationships are boiled-down to lower dimensions with **multidimensional scaling** for meaningful visualisation and easy interpretability.  Additionally, a linear classifier is constructed using **discriminant analysis** to predict a car's "acceptability" based on its attributes. 
 
 ## Programming Language
 The entire project is performed with R using dedicated statistical packages such as **FactoMineR**.
