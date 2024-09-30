@@ -1,7 +1,9 @@
 # Car Evaluation Project
 
-## Objective
-The objective of this project is to perform **dimensionality reduction** techniques to identify the relationship between categories of each descriptive variable with the categories of car’s evaluation level, and generate meaningful visualisations. Car Evaluation Dataset from UC Irvine Machine Learning Repository is used. The Car Evaluation Database contains examples with the structural information removed, i.e., directly relates car acceptability *(evaluation level)* to the six input attributes: buying, maint, doors, persons, lug_boot, safety.
+## Objective - Dimensionality Reduction
+The UCI dataset contains car records that evaluates a model based on what is its overall acceptability from the perspective of consumers, along with other attributes that define a particular model. Using these attributes, correspondence analysis is performed in this project to identify key relationships between categories of each descriptive variable with how "acceptable" a car is. The complex "high-dimensional" relationships are boiled-down to lower dimensions for meaningful visualisation and easy interpretability.  Additionally, a linear classifier is constructed (using Discriminant Analysis) to predict a car's "acceptability" based on its attributes. 
+
+Car Evaluation Dataset from UC Irvine Machine Learning Repository is used. The Car Evaluation Database contains examples with the structural information removed, i.e., directly relates car acceptability *(evaluation level)* to the six input attributes: buying, maint, doors, persons, lug_boot, safety.
 
 Link for the dataset: *https://archive.ics.uci.edu/dataset/19/car+evaluation*<br>
 All variables in the dataset are categorical. There are 1728 instances with no missing values for any of the variables.
